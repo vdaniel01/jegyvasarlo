@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="soccerplayer.png" type="image/x-icon">
+    <title>Jegyvásárló</title>
+  </head>
+  <body>
+      <h1>Jegyvásárlás</h1>
+      <div id="container">
+    <div id="tajekoztato">
+            <ol>
+                <li>Írja be hány jegyet szeretne vásárolni majd kattintson a "Megerősít" gombra</li><br>
+                <li>Válassza ki a jegyek típusát és kattintson a "Vásárlás" gombra ("Töröl" gomb segítségével elölről kezdheti a kiválasztást)</li>
+            </ol> 
+
+    </div>
+    <div id="bemenet">
+      <label for="">Hány jegyet szeretne venni?</label><br>
+      <input type="number" id="jegyekSzama"/>
+      <button id="megerosit">Megerősít</button>
+      <p id="maradek"></p>
+      <button id="felnott">+felnőtt</button>
+      <button id="diak">+diák</button>
+      <button id="torol">Töröl</button>
+      <p>Jegyek száma:</p>
+      <p id="jegyek"></p>
+      <p id="jegyekAra"></p>
+    <p></p>
+      <p id="tartalom"></p>
+      <button id="vasarlas">Vásárlás</button>
+      <p id="eredmeny"></p>
+    </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
